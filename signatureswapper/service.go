@@ -27,7 +27,7 @@ type SignatureSwapperService struct {
 
 func NewSignatureSwapperService() *SignatureSwapperService {
 	return &SignatureSwapperService{
-		client: &http.Client{Timeout: 6 * time.Second}, // get a response in half a slot
+		client: &http.Client{Timeout: 12 * time.Second}, // get a response within a slot
 	}
 }
 

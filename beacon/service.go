@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restaking-cloud/native-delegation-for-plus/beacon/config"
+	"github.com/bswap-eng/native-delegation-for-plus/beacon/config"
 )
 
 type BeaconService struct {

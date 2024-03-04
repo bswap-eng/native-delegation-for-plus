@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"net/url"
 
-	k2common "github.com/restaking-cloud/native-delegation-for-plus/common"
+	k2common "github.com/bswap-eng/native-delegation-for-plus/common"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
@@ -22,7 +22,7 @@ type EthServiceConfig struct {
 
 	// ABI
 	K2LendingContractABI        *abi.ABI
-	K2NodeOperatorContractABI        *abi.ABI
+	K2NodeOperatorContractABI   *abi.ABI
 	ProposerRegistryContractABI *abi.ABI
 
 	// Multicall

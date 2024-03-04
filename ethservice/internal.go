@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/restaking-cloud/native-delegation-for-plus/ethservice/contracts"
+	"github.com/bswap-eng/native-delegation-for-plus/ethservice/contracts"
 )
 
 func (e *EthService) connect(url *url.URL) error {

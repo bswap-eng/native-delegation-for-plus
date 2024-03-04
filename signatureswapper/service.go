@@ -14,10 +14,10 @@ import (
 	apiv1 "github.com/attestantio/go-builder-client/api/v1"
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 
+	k2Common "github.com/bswap-eng/native-delegation-for-plus/common"
 	"github.com/ethereum/go-ethereum/common"
-	k2Common "github.com/restaking-cloud/native-delegation-for-plus/common"
 
-	"github.com/restaking-cloud/native-delegation-for-plus/signatureswapper/config"
+	"github.com/bswap-eng/native-delegation-for-plus/signatureswapper/config"
 )
 
 type SignatureSwapperService struct {

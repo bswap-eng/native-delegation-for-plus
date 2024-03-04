@@ -9,21 +9,21 @@ import (
 	"sync"
 	"time"
 
-	balanceverifier "github.com/restaking-cloud/native-delegation-for-plus/balanceverifier"
-	"github.com/restaking-cloud/native-delegation-for-plus/config"
+	balanceverifier "github.com/bswap-eng/native-delegation-for-plus/balanceverifier"
+	"github.com/bswap-eng/native-delegation-for-plus/config"
 
+	"github.com/bswap-eng/native-delegation-for-plus/ethservice"
+	ethConfig "github.com/bswap-eng/native-delegation-for-plus/ethservice/config"
 	ethcommon "github.com/ethereum/go-ethereum/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/ethservice"
-	ethConfig "github.com/restaking-cloud/native-delegation-for-plus/ethservice/config"
 
+	"github.com/bswap-eng/native-delegation-for-plus/beacon"
+	beaconConfig "github.com/bswap-eng/native-delegation-for-plus/beacon/config"
+	k2common "github.com/bswap-eng/native-delegation-for-plus/common"
+	"github.com/bswap-eng/native-delegation-for-plus/signatureswapper"
+	"github.com/bswap-eng/native-delegation-for-plus/subgraph"
+	"github.com/bswap-eng/native-delegation-for-plus/web3signer"
 	"github.com/pon-network/mev-plus/common"
 	coreCommon "github.com/pon-network/mev-plus/core/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/beacon"
-	beaconConfig "github.com/restaking-cloud/native-delegation-for-plus/beacon/config"
-	k2common "github.com/restaking-cloud/native-delegation-for-plus/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/signatureswapper"
-	"github.com/restaking-cloud/native-delegation-for-plus/subgraph"
-	"github.com/restaking-cloud/native-delegation-for-plus/web3signer"
 
 	apiv1 "github.com/attestantio/go-builder-client/api/v1"
 

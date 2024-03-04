@@ -15,12 +15,12 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/sirupsen/logrus"
 
+	k2common "github.com/bswap-eng/native-delegation-for-plus/common"
 	eth1Common "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	k2common "github.com/restaking-cloud/native-delegation-for-plus/common"
 
+	"github.com/bswap-eng/native-delegation-for-plus/config"
 	"github.com/pon-network/mev-plus/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/config"
 )
 
 func (k2 *K2Service) parseConfig(moduleFlags common.ModuleFlags) (err error) {

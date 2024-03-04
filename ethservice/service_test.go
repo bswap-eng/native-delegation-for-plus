@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/bswap-eng/native-delegation-for-plus/ethservice"
+	"github.com/bswap-eng/native-delegation-for-plus/ethservice/config"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/ethservice"
-	"github.com/restaking-cloud/native-delegation-for-plus/ethservice/config"
 	"github.com/sirupsen/logrus"
 )
 

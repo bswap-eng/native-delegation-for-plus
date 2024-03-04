@@ -1,4 +1,4 @@
-module github.com/restaking-cloud/native-delegation-for-plus
+module github.com/bswap-eng/native-delegation-for-plus
 
 go 1.20
 

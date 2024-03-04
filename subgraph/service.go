@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/bswap-eng/native-delegation-for-plus/subgraph/config"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/subgraph/config"
 
 	graphql "github.com/hasura/go-graphql-client"
 )

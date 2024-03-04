@@ -3,8 +3,8 @@ package config
 import (
 	"net/url"
 
+	k2common "github.com/bswap-eng/native-delegation-for-plus/common"
 	"github.com/ethereum/go-ethereum/common"
-	k2common "github.com/restaking-cloud/native-delegation-for-plus/common"
 )
 
 type K2Config struct {

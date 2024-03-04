@@ -13,8 +13,8 @@ import (
 
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 
-	k2Common "github.com/restaking-cloud/native-delegation-for-plus/common"
-	"github.com/restaking-cloud/native-delegation-for-plus/balanceverifier/config"
+	"github.com/bswap-eng/native-delegation-for-plus/balanceverifier/config"
+	k2Common "github.com/bswap-eng/native-delegation-for-plus/common"
 )
 
 type BalanceVerifierService struct {
@@ -33,7 +33,7 @@ func (s *BalanceVerifierService) Configure(url *url.URL) error {
 	if url == nil {
 		return fmt.Errorf("balanceverifierservice: url not set, cannot configure service")
 	}
-	
+
 	s.cfg.Url = url
 
 	info, err := s.GetInfo()
